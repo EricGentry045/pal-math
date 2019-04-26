@@ -1,0 +1,9 @@
+---
+applications:
+  - name: pal-math
+    path: build/libs/pal-math.jar
+    routes:
+      - route: pal-math-eg.apps.evans.pal.pivotal.io
+    env:
+      WELCOME_MESSAGE: Hello from Math World 2.0
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
